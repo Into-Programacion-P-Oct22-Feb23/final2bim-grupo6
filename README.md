@@ -1,6 +1,11 @@
 # 2 Bimestre
 ## Proyecto Java
 
+Integrantes: 
+
+MariaAngel Rojas
+Steveen Cuenca
+
 ***
 
 ### Problemática a resolver
