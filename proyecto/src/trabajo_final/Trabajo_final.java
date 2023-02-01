@@ -55,9 +55,11 @@ public class Trabajo_final {
                                 mensaje = funciones.crearFlickr();
                                 System.out.println(mensaje);
                             } else {
+                            }
+                            if (num >=8  || num <= 0) {
                                 System.out.println("Error numero fuera de "
                                         + "los límites");
-                                numero = 0;
+                                numero = numero + 0;
                             }
                         }
                     }
@@ -71,12 +73,14 @@ public class Trabajo_final {
         }
         if (numero > 0) {
             mensaje = mensajeN.obtenerCadena(numero);
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             System.out.printf("Con número de cuentas %d es: %s",
                     numero, mensaje);
-        }else{
+        } else {
             mensaje = mensajeN.obtenerCadena(0);
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             System.out.printf("Con número de cuentas %d es: %s",
-                    numero,mensaje);
+                    numero, mensaje);
         }
     }
 

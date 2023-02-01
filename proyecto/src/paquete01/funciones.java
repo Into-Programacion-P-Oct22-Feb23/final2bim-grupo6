@@ -7,8 +7,9 @@ package paquete01;
 import java.util.Scanner;
 
 public class funciones {
+
     public static String crearFacebook() {
-         Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         String mensaje = "";
         String nombreUsuario;
         int edad;
@@ -35,8 +36,9 @@ public class funciones {
                                 Correo electronico: %s
                                 """, nombreUsuario, edad, ciudad,
                 pais, correoElectronico);
-        return mensaje;      
+        return mensaje;
     }
+
     public static String crearWhatsapp() {
         Scanner entrada = new Scanner(System.in);
         String mensaje = "";
@@ -64,11 +66,12 @@ public class funciones {
                                 Edad: %d
                                 Ciudad: %s
                                 País: %s
-                                """, nombreUsuario, numeroCelular, 
-                edad, ciudad,pais);
+                                """, nombreUsuario, numeroCelular,
+                edad, ciudad, pais);
         return mensaje;
     }
-     public static String crearSignal() {
+
+    public static String crearSignal() {
         Scanner entrada = new Scanner(System.in);
         String mensaje = "";
         String nombreUsuario;

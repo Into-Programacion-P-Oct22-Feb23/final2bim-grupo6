@@ -51,6 +51,7 @@ public class procedimientos {
                           """, nombreUsuario, nombre, apellido, edad, ciudad,
                 pais, idioma, correo);
     }
+
     public static void crearTelegram() {
         Scanner entrada = new Scanner(System.in);
         String nombreUsuario;
@@ -82,6 +83,7 @@ public class procedimientos {
                           """, nombreUsuario, telefono,
                 edad, ciudad, pais, interes);
     }
+
     public static void crearInstagram() {
         Scanner entrada = new Scanner(System.in);
         String nombreUsuario;
